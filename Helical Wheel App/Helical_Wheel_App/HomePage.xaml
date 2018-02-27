@@ -9,7 +9,7 @@
   <StackLayout x:Name="MainView">
     <StackLayout x:Name="AminoEntry">
       <!--&#x0a;-->
-      <Label Text="ProteinName"/>
+      <Label Text="Protein Name"/>
       <Entry x:Name="ProteinEntry" HorizontalOptions="FillAndExpand"/>
       <Label Text="Amino Acid Sequence (*Use commas to seperate three letter appreviated amino acids)"/>
       <Editor x:Name="AminoAcidEditor" HeightRequest="100"  HorizontalOptions="FillAndExpand" />
