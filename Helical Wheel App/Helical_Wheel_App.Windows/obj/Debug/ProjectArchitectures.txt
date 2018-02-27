@@ -1,0 +1,2 @@
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.Windows\Helical_Wheel_App.Windows.csproj;neutral
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\Helical_Wheel_App.csproj;neutral

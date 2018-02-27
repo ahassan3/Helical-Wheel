@@ -1,0 +1,51 @@
+C:\Users\ahassan3\Documents\Visual Studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App\obj\Debug\Helical_Wheel_App.csprojResolveAssemblyReference.cache
+C:\Users\ahassan3\Documents\Visual Studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App\obj\Debug\Helical_Wheel_App.WheelCanvas.xaml.g.cs
+C:\Users\ahassan3\Documents\Visual Studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App\obj\Debug\Helical_Wheel_App.HomePage.xaml.g.cs
+C:\Users\ahassan3\Documents\Visual Studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App\obj\Debug\Helical_Wheel_App.PreviousEntries.xaml.g.cs
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App\bin\Debug\Helical_Wheel_App.dll.config
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App\bin\Debug\Helical_Wheel_App.dll
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App\bin\Debug\Helical_Wheel_App.pdb
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App\bin\Debug\Shim.dll
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App\bin\Debug\SkiaSharp.dll
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App\bin\Debug\SkiaSharp.Views.Forms.dll
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App\bin\Debug\Windows.winmd
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App\bin\Debug\Shim.pdb
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App\bin\Debug\Shim.xml
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App\bin\Debug\SkiaSharp.xml
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App\obj\Debug\Helical_Wheel_App.dll
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App\obj\Debug\Helical_Wheel_App.pdb
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App\obj\Debug\Helical_Wheel_App.dll.mdb
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App\bin\Debug\Helical_Wheel_App.dll.mdb
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\bin\Debug\Helical_Wheel_App.dll.config
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\bin\Debug\Helical_Wheel_App.dll
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\bin\Debug\Helical_Wheel_App.pdb
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\bin\Debug\Shim.dll
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\bin\Debug\SkiaSharp.dll
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\bin\Debug\SkiaSharp.Views.Forms.dll
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\bin\Debug\Windows.winmd
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\bin\Debug\Shim.pdb
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\bin\Debug\Shim.xml
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\bin\Debug\SkiaSharp.xml
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\obj\Debug\Helical_Wheel_App.WheelCanvas.xaml.g.cs
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\obj\Debug\Helical_Wheel_App.HomePage.xaml.g.cs
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\obj\Debug\Helical_Wheel_App.PreviousEntries.xaml.g.cs
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\obj\Debug\Helical_Wheel_App.dll
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\obj\Debug\Helical_Wheel_App.pdb
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\obj\Debug\Helical_Wheel_App.dll.mdb
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\bin\Debug\Helical_Wheel_App.dll.mdb
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\obj\Debug\Helical_Wheel_App.dll.mdb
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\bin\Debug\Helical_Wheel_App.dll.mdb

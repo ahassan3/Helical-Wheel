@@ -1,0 +1,112 @@
+C:\Users\ahassan3\Documents\Visual Studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\Helical_Wheel_App.WinPhone.csprojResolveAssemblyReference.cache
+C:\Users\ahassan3\Documents\Visual Studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\App.g.i.cs
+C:\Users\ahassan3\Documents\Visual Studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\App.g.cs
+C:\Users\ahassan3\Documents\Visual Studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\MainPage.g.i.cs
+C:\Users\ahassan3\Documents\Visual Studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\MainPage.g.cs
+C:\Users\ahassan3\Documents\Visual Studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\ahassan3\Documents\Visual Studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\App.xaml
+C:\Users\ahassan3\Documents\Visual Studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\MainPage.xaml
+C:\Users\ahassan3\Documents\Visual Studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\App.xbf
+C:\Users\ahassan3\Documents\Visual Studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\MainPage.xbf
+C:\Users\ahassan3\Documents\Visual Studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\XamlSaveStateFile.xml
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Helical_Wheel_App.WinPhone.exe.config
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\App.xbf
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\MainPage.xbf
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Helical_Wheel_App.WinPhone.xr.xml
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Helical_Wheel_App.WinPhone.exe
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Helical_Wheel_App.WinPhone.pdb
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\resources.pri
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\AppxManifest.xml
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Helical_Wheel_App.WinPhone.build.appxrecipe
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Helical_Wheel_App.dll
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Shim.dll
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\SkiaSharp.dll
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\SkiaSharp.Views.Forms.dll
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Xamarin.Forms.Platform.WinRT.dll
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Xamarin.Forms.Platform.WinRT.Phone.dll
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Helical_Wheel_App.pdb
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Shim.pdb
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Shim.xml
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Shim.pri
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\SkiaSharp.xml
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Xamarin.Forms.Platform.WinRT.pri
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Xamarin.Forms.Platform.WinRT.Phone.pri
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\Helical_Wheel_App.WinPhone.exe
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\Helical_Wheel_App.WinPhone.pdb
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\Helical_Wheel_App.WinPhone.csproj.GenerateResource.Cache
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\priconfig.xml
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\priconfig.xml.intermediate
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\layout.resfiles
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\layout.resfiles.intermediate
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\resources.resfiles
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\resources.resfiles.intermediate
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\pri.resfiles
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\pri.resfiles.intermediate
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\qualifiers.txt
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\qualifiers.txt.intermediate
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\Shim.pri.xml
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\Xamarin.Forms.Platform.WinRT.pri.xml
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\Xamarin.Forms.Platform.WinRT.Phone.pri.xml
+C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\ProjectArchitectures.txt
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Helical_Wheel_App.WinPhone.exe.config
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\App.xbf
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\MainPage.xbf
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Helical_Wheel_App.WinPhone.xr.xml
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Helical_Wheel_App.WinPhone.exe
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Helical_Wheel_App.WinPhone.pdb
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\resources.pri
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\AppxManifest.xml
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Helical_Wheel_App.WinPhone.build.appxrecipe
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Helical_Wheel_App.dll
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Shim.dll
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\SkiaSharp.dll
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\SkiaSharp.Views.Forms.dll
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Xamarin.Forms.Platform.WinRT.dll
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Xamarin.Forms.Platform.WinRT.Phone.dll
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Helical_Wheel_App.pdb
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Shim.pdb
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Shim.xml
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Shim.pri
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\SkiaSharp.xml
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Xamarin.Forms.Platform.WinRT.pri
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Xamarin.Forms.Platform.WinRT.Phone.pri
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\Helical_Wheel_App.WinPhone.csprojResolveAssemblyReference.cache
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\App.g.i.cs
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\App.g.cs
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\MainPage.g.i.cs
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\MainPage.g.cs
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\App.xaml
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\MainPage.xaml
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\App.xbf
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\MainPage.xbf
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\XamlSaveStateFile.xml
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\Helical_Wheel_App.WinPhone.exe
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\Helical_Wheel_App.WinPhone.pdb
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\Helical_Wheel_App.WinPhone.csproj.GenerateResource.Cache
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\priconfig.xml
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\priconfig.xml.intermediate
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\layout.resfiles
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\layout.resfiles.intermediate
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\resources.resfiles
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\resources.resfiles.intermediate
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\pri.resfiles
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\pri.resfiles.intermediate
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\qualifiers.txt
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\qualifiers.txt.intermediate
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\Shim.pri.xml
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\Xamarin.Forms.Platform.WinRT.pri.xml
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\Xamarin.Forms.Platform.WinRT.Phone.pri.xml
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App.WinPhone\obj\Debug\ProjectArchitectures.txt

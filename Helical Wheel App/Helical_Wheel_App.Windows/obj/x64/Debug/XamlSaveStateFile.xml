@@ -1,0 +1,13 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\ahassan3\documents\visual studio 2015\projects\helical wheel app\helical wheel app\helical_wheel_app.windows\obj\x64\debug\intermediatexaml\helical_wheel_app.windows.exe" HashGuid="fa8062e7-e0c2-7827-aa2d-276adaec514f" />
+    <ReferenceAssembly PathName="c:\users\ahassan3\documents\visual studio 2015\projects\helical wheel app\helical wheel app\helical_wheel_app\bin\debug\helical_wheel_app.dll" HashGuid="567f31a3-3d47-4e97-f0e5-c12dcec997cd" />
+    <ReferenceAssembly PathName="c:\users\ahassan3\documents\visual studio 2015\projects\helical wheel app\packages\skiasharp.1.59.3\lib\portable-net45+win8+wpa81+wp8\skiasharp.dll" HashGuid="70473248-852d-da63-487a-fce4ad312941" />
+    <ReferenceAssembly PathName="c:\users\ahassan3\documents\visual studio 2015\projects\helical wheel app\packages\skiasharp.views.forms.1.59.3\lib\portable-net45+win8+wpa81+wp8\skiasharp.views.forms.dll" HashGuid="5797437b-63dd-4aef-097f-a64730b5f89d" />
+    <ReferenceAssembly PathName="c:\users\ahassan3\documents\visual studio 2015\projects\helical wheel app\packages\xamarin.forms.2.4.0.91020\lib\win81\xamarin.forms.core.dll" HashGuid="0ce0e016-062b-99c1-a101-b4c46ffa3c13" />
+    <ReferenceAssembly PathName="c:\users\ahassan3\documents\visual studio 2015\projects\helical wheel app\packages\xamarin.forms.2.4.0.91020\lib\win81\xamarin.forms.platform.dll" HashGuid="6b938cd4-44c0-2618-7eb6-4caa3f482076" />
+    <ReferenceAssembly PathName="c:\users\ahassan3\documents\visual studio 2015\projects\helical wheel app\packages\xamarin.forms.2.4.0.91020\lib\win81\xamarin.forms.platform.winrt.dll" HashGuid="e166de3d-5e1b-60fd-ebea-6e770a03e35c" />
+    <ReferenceAssembly PathName="c:\users\ahassan3\documents\visual studio 2015\projects\helical wheel app\packages\xamarin.forms.2.4.0.91020\lib\win81\xamarin.forms.platform.winrt.tablet.dll" HashGuid="52413e42-cf52-a305-9da6-4ba7bec82dc1" />
+    <ReferenceAssembly PathName="c:\users\ahassan3\documents\visual studio 2015\projects\helical wheel app\packages\xamarin.forms.2.4.0.91020\lib\win81\xamarin.forms.xaml.dll" HashGuid="08a596e4-6ad8-d3a7-0d55-5e5fb53104a0" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

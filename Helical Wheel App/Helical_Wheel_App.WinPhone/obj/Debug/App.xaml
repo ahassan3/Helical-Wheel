@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="Helical_Wheel_App.WinPhone.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Helical_Wheel_App.WinPhone">
+
+</Application>
+

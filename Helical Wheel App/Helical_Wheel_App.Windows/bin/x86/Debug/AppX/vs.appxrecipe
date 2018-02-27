@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>AHASSAN3-HP</Machine>
+    <WindowsUser>ahassan3</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>f2522c5f-c6b4-497a-8e36-0b788199a7cf</PackageIdentityName>
+    <PackageIdentityPublisher>CN=ahassan3</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.Windows\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>4EE32074E4B7C59E1D9EEEDA85206B5A60D78A69C8373403511A9A6E42523723</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>f2522c5f-c6b4-497a-8e36-0b788199a7cf_1.0.0.0_x86__ch14qgwbw1fdp</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>f2522c5f-c6b4-497a-8e36-0b788199a7cf_ch14qgwbw1fdp!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>f2522c5f-c6b4-497a-8e36-0b788199a7cf</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=ahassan3</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.Windows\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-02-20T03:27:54.977</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.Windows\bin\x86\Debug\Helical_Wheel_App.Windows.exe">
+      <PackagePath>Helical_Wheel_App.Windows.exe</PackagePath>
+      <Modified>2018-02-20T03:27:53.637</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App\bin\Debug\Helical_Wheel_App.dll">
+      <PackagePath>Helical_Wheel_App.dll</PackagePath>
+      <Modified>2018-02-20T03:23:06.567</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\packages\SkiaSharp.1.59.3\lib\portable-net45+win8+wpa81+wp8\SkiaSharp.dll">
+      <PackagePath>SkiaSharp.dll</PackagePath>
+      <Modified>2017-12-19T16:03:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\packages\SkiaSharp.Views.Forms.1.59.3\lib\portable-net45+win8+wpa81+wp8\SkiaSharp.Views.Forms.dll">
+      <PackagePath>SkiaSharp.Views.Forms.dll</PackagePath>
+      <Modified>2017-12-19T16:04:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\packages\Xamarin.Forms.2.4.0.91020\lib\win81\Xamarin.Forms.Core.dll">
+      <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
+      <Modified>2017-11-15T23:16:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\packages\Xamarin.Forms.2.4.0.91020\lib\win81\Xamarin.Forms.Platform.dll">
+      <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
+      <Modified>2017-11-15T23:16:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\packages\Xamarin.Forms.2.4.0.91020\lib\win81\Xamarin.Forms.Platform.WinRT.dll">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.dll</PackagePath>
+      <Modified>2017-11-15T23:16:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\packages\Xamarin.Forms.2.4.0.91020\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet.dll">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet.dll</PackagePath>
+      <Modified>2017-11-15T23:16:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\packages\Xamarin.Forms.2.4.0.91020\lib\win81\Xamarin.Forms.Xaml.dll">
+      <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
+      <Modified>2017-11-15T23:16:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-02-18T23:52:36.988</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-02-18T23:52:36.993</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-02-18T23:52:36.997</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-02-18T23:52:36.999</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.Windows\bin\x86\Debug\Helical_Wheel_App.Windows.xr.xml">
+      <PackagePath>Helical_Wheel_App.Windows.xr.xml</PackagePath>
+      <Modified>2018-02-20T03:27:53.393</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.Windows\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2018-02-20T03:27:53.537</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.Windows\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2018-02-20T03:27:53.537</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\packages\Xamarin.Forms.2.4.0.91020\lib\win81\Xamarin.Forms.Platform.WinRT\PageControl.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\PageControl.xbf</PackagePath>
+      <Modified>2017-11-15T23:16:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\packages\Xamarin.Forms.2.4.0.91020\lib\win81\Xamarin.Forms.Platform.WinRT\StepperControl.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\StepperControl.xbf</PackagePath>
+      <Modified>2017-11-15T23:16:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\packages\Xamarin.Forms.2.4.0.91020\lib\win81\Xamarin.Forms.Platform.WinRT\Xamarin.Forms.Platform.WinRT.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\Xamarin.Forms.Platform.WinRT.xr.xml</PackagePath>
+      <Modified>2017-11-15T23:16:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\packages\Xamarin.Forms.2.4.0.91020\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\FormsProgressBarStyle.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\FormsProgressBarStyle.xbf</PackagePath>
+      <Modified>2017-11-15T23:16:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\packages\Xamarin.Forms.2.4.0.91020\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\FormsTextBoxStyle.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\FormsTextBoxStyle.xbf</PackagePath>
+      <Modified>2017-11-15T23:16:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\packages\Xamarin.Forms.2.4.0.91020\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\Resources.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\Resources.xbf</PackagePath>
+      <Modified>2017-11-15T23:16:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\packages\Xamarin.Forms.2.4.0.91020\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\TabletResources.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\TabletResources.xbf</PackagePath>
+      <Modified>2017-11-15T23:16:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\packages\Xamarin.Forms.2.4.0.91020\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\Xamarin.Forms.Platform.WinRT.Tablet.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\Xamarin.Forms.Platform.WinRT.Tablet.xr.xml</PackagePath>
+      <Modified>2017-11-15T23:16:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ahassan3\documents\visual studio 2015\Projects\Helical Wheel App\Helical Wheel App\Helical_Wheel_App.Windows\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2018-02-20T03:27:54.373</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
