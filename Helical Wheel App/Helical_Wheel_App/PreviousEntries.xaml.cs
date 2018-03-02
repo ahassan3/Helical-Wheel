@@ -8,6 +8,7 @@ using System.Reflection;
 using Xamarin.Forms;
 using System.Xml.Serialization;
 using Windows.Storage;
+using System.Xml.Linq;
 
 namespace Helical_Wheel_App
 {
@@ -33,9 +34,24 @@ namespace Helical_Wheel_App
         public PreviousEntries()
         {
             InitializeComponent();
-            LoadEntries();
+            try
+            {
+                LoadEntries();
+            }
+            catch(Exception ex)
+            {
+                //reset the documents entries
+                var docmentPath = Path.Combine(FileStream.PathApp, FileStream.FileName);
+                Stream writeStream = File.Open(docmentPath, FileMode.Open);
+                using (var writer = new StreamWriter(writeStream))
+                {
+                    XmlSerializer ser = new XmlSerializer(typeof(List<ProteinEntry>), new XmlRootAttribute(FileStream.RootName));
+                    ser.Serialize(writer, new List<ProteinEntry>());
+                }
+                LoadEntries();
+            }
         }
-        public void LoadEntries()
+        public void LoadEntries(bool skip = false)
         {
             var button = new Button();
             button.Text = "Clear Entries";
@@ -46,16 +62,22 @@ namespace Helical_Wheel_App
                 FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
                 HorizontalOptions = LayoutOptions.Center
             };
-            var docmentPath = Path.Combine(FileStream.PathApp, FileStream.FileName);
-            Stream stream = File.Open(docmentPath, FileMode.Open);
             List<ProteinEntry> proteins = new List<ProteinEntry>();
-            using (var reader = new System.IO.StreamReader(stream))
+            object item = "";
+            if (!skip)
             {
-                var serializer = new XmlSerializer(typeof(List<ProteinEntry>), new XmlRootAttribute(FileStream.RootName));
-                var xmlReader = System.Xml.XmlReader.Create(reader);
-                if (serializer.CanDeserialize(xmlReader))
-                    proteins = (List<ProteinEntry>)serializer.Deserialize(xmlReader);
+                var docmentPath = Path.Combine(FileStream.PathApp, FileStream.FileName);
+                Stream stream = File.Open(docmentPath, FileMode.Open);
+                using (var reader = new System.IO.StreamReader(stream))
+                {
+                    var serializer = new XmlSerializer(typeof(List<ProteinEntry>), new XmlRootAttribute(FileStream.RootName));
+                    var xmlReader = System.Xml.XmlReader.Create(reader);
+                    if (serializer.CanDeserialize(xmlReader))
+                        item = serializer.Deserialize(xmlReader);
+                }
+                proteins = (List<ProteinEntry>)item;
             }
+            
             var listView = new ListView();
             listView.ItemsSource = proteins;
             listView.SeparatorColor = Color.Black;
@@ -112,16 +134,9 @@ namespace Helical_Wheel_App
         private void Button_Clicked(object sender, EventArgs e)
         {
             var docmentPath = Path.Combine(FileStream.PathApp, FileStream.FileName);
-            List<ProteinEntry> proteins = new List<ProteinEntry>();
-            Stream writeStream = File.Open(docmentPath, FileMode.Open);
-            using (var writer = new StreamWriter(writeStream))
-            {
-                XmlSerializer ser = new XmlSerializer(typeof(List<ProteinEntry>), new XmlRootAttribute(FileStream.RootName));
-                ser.Serialize(writer, proteins);
-            }
-            LoadEntries();
-            //Navigation.PopAsync();
-            //Navigation.PushAsync(new PreviousEntries());
+            XDocument doc = new XDocument(new XElement(FileStream.RootName));
+            doc.Save(docmentPath);
+            LoadEntries(true);
         }
 
         void OnSelection(object sender, SelectedItemChangedEventArgs e)

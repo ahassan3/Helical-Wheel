@@ -137,6 +137,7 @@ class MonoPackageManager_Resources {
 		"System.Resources.ResourceManager.dll",
 		"System.Diagnostics.Tools.dll",
 		"System.Xml.XmlSerializer.dll",
+		"System.Xml.XDocument.dll",
 		"System.Collections.Concurrent.dll",
 		"System.Runtime.InteropServices.dll",
 	};

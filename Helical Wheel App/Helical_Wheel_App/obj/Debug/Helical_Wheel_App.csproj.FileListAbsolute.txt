@@ -45,7 +45,6 @@ C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Whee
 C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\obj\Debug\Helical_Wheel_App.PreviousEntries.xaml.g.cs
 C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\obj\Debug\Helical_Wheel_App.dll
 C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\obj\Debug\Helical_Wheel_App.pdb
-C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\obj\Debug\Helical_Wheel_App.dll.mdb
-C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\bin\Debug\Helical_Wheel_App.dll.mdb
+C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\obj\Debug\Helical_Wheel_App.csprojResolveAssemblyReference.cache
 C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\obj\Debug\Helical_Wheel_App.dll.mdb
 C:\Users\ahassan3\Source\Repos\Helical-Wheel-New-\Helical Wheel App\Helical_Wheel_App\bin\Debug\Helical_Wheel_App.dll.mdb
