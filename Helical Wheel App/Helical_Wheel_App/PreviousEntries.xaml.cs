@@ -8,6 +8,7 @@ using System.Reflection;
 using Xamarin.Forms;
 using System.Xml.Serialization;
 using Windows.Storage;
+using System.Xml.Linq;
 
 namespace Helical_Wheel_App
 {
@@ -112,13 +113,8 @@ namespace Helical_Wheel_App
         private void Button_Clicked(object sender, EventArgs e)
         {
             var docmentPath = Path.Combine(FileStream.PathApp, FileStream.FileName);
-            List<ProteinEntry> proteins = new List<ProteinEntry>();
-            Stream writeStream = File.Open(docmentPath, FileMode.Open);
-            using (var writer = new StreamWriter(writeStream))
-            {
-                XmlSerializer ser = new XmlSerializer(typeof(List<ProteinEntry>), new XmlRootAttribute(FileStream.RootName));
-                ser.Serialize(writer, proteins);
-            }
+            XDocument doc = new XDocument(new XElement(FileStream.RootName));
+            doc.Save(docmentPath);
             LoadEntries();
             //Navigation.PopAsync();
             //Navigation.PushAsync(new PreviousEntries());
