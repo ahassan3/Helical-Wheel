@@ -32,22 +32,8 @@ namespace Helical_Wheel_App
         void Button_Click(object sender, EventArgs e)
         {
             DrawHelicalWheel();
-            try
-            {
-                if (!Errors.IsVisible)
-                    AddEntry();
-            }
-            catch
-            {
-                //empty out the xml file 
-                var docmentPath = Path.Combine(FileStream.PathApp, FileStream.FileName);
-                Stream writeStream = File.Open(docmentPath, FileMode.Open);
-                using (var writer = new StreamWriter(writeStream))
-                {
-                    XmlSerializer ser = new XmlSerializer(typeof(List<ProteinEntry>), new XmlRootAttribute(FileStream.RootName));
-                    ser.Serialize(writer, new List<ProteinEntry>());
-                }
-            }
+            if (!Errors.IsVisible)
+                AddEntry();
         }
         void RunAnalysisItem_Click(object sender, EventArgs e)
         {
