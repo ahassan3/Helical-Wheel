@@ -1,13 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
-using System.Reflection;
 using Xamarin.Forms;
 using System.Xml.Serialization;
-using Windows.Storage;
 using System.Xml.Linq;
 
 namespace Helical_Wheel_App
@@ -116,8 +111,6 @@ namespace Helical_Wheel_App
             XDocument doc = new XDocument(new XElement(FileStream.RootName));
             doc.Save(docmentPath);
             LoadEntries();
-            //Navigation.PopAsync();
-            //Navigation.PushAsync(new PreviousEntries());
         }
 
         void OnSelection(object sender, SelectedItemChangedEventArgs e)
@@ -129,7 +122,6 @@ namespace Helical_Wheel_App
             //Casting the item to the protein class
             var item = (ProteinEntry)e.SelectedItem;
             Application.Current.MainPage = new NavigationPage(new HomePage(item.ProteinName, item.AminoSequence));
-            //((ListView)sender).SelectedItem = null; //uncomment line if you want to disable the visual selection state.
         }
     }
 
