@@ -3,8 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Helical_Wheel_App.HomePage">
   <ContentPage.ToolbarItems>
-    <ToolbarItem x:Name="RunAnalysisItem" Order="Primary" Icon="Xamarin.png" Text="Evaluate Structure" Priority="1" Clicked="RunAnalysisItem_Click"/>
-    <ToolbarItem x:Name="PreviousEntriesItem" Order="Primary" Icon="Xamarin.png" Text="Previous Entries" Priority="2"/>
+    <!--<ToolbarItem x:Name="RunAnalysisItem" Order="Primary" Icon="Xamarin.png" Text="Evaluate Structure" Priority="1" Clicked="RunAnalysisItem_Click"/>
+    <ToolbarItem x:Name="PreviousEntriesItem" Order="Primary" Icon="Xamarin.png" Text="Previous Entries" Priority="2"/>-->
   </ContentPage.ToolbarItems>
   <StackLayout x:Name="MainView">
     <StackLayout x:Name="AminoEntry">

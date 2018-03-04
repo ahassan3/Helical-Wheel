@@ -18,10 +18,23 @@ namespace Helical_Wheel_App
         {
             aminoClass = new AminoAcids();
             InitializeComponent();
-            PreviousEntriesItem.Clicked += delegate
+            var toolbar = new ToolbarItem();
+            toolbar.AutomationId = "RunAnalysisItem";
+            toolbar.Text = "Evaluate Structure";
+            toolbar.Priority = 1;
+            toolbar.Clicked += new EventHandler(RunAnalysisItem_Click);
+            toolbar.Order = ToolbarItemOrder.Primary;
+            var toolbar2 = new ToolbarItem();
+            toolbar2.AutomationId = "PreviousEntriesItem";
+            toolbar2.Text = "Previous Entries";
+            toolbar2.Priority = 1;
+            toolbar2.Clicked += delegate
             {
                 Navigation.PushAsync(new PreviousEntries());
             };
+            toolbar2.Order = ToolbarItemOrder.Secondary;
+            this.ToolbarItems.Add(toolbar);
+            this.ToolbarItems.Add(toolbar2);
             if (!string.IsNullOrEmpty(AminoSeq))
             {
                 ProteinEntry.Text = ProteinName;
@@ -37,19 +50,20 @@ namespace Helical_Wheel_App
         }
         void RunAnalysisItem_Click(object sender, EventArgs e)
         {
-            if (HelicalView.Content != null && HelicalView.IsVisible && !RunAnalysisItem.Text.Equals("Back to Entry"))
+            var toolbar = this.ToolbarItems.FirstOrDefault(x => x.AutomationId.Equals("RunAnalysisItem"));
+            if (HelicalView.Content != null && HelicalView.IsVisible && !toolbar.Text.Equals("Back to Entry"))
             {
                 AminoEntry.IsVisible = false;
                 var content = (WheelCanvas)HelicalView.Content;
                 RunAminoAnalysis(content.HelicalStructure);
-                RunAnalysisItem.Text = "Back to Entry";
+                toolbar.Text = "Back to Entry";
             }
-            else if (RunAnalysisItem.Text.Equals("Back to Entry"))
+            else if (this.ToolbarItems.FirstOrDefault(x => x.AutomationId.Equals("RunAnalysisItem")).Text.Equals("Back to Entry"))
             {
                 StructureAnalysis.IsVisible = false;
                 ScrollBar.IsVisible = false;
                 AminoEntry.IsVisible = true;
-                RunAnalysisItem.Text = "Evaluate Structure";
+                toolbar.Text = "Evaluate Structure";
 
             }
             else
