@@ -93,7 +93,7 @@ namespace Helical_Wheel_App
                 }
                 else
                 {
-                    Errors.Text = "The amino acid sequence is not in a correct format. Please only use letters A-Z, and, for three letter appreviation, use no more than three letters seperated by commas";
+                    Errors.Text = "The amino acid sequence is not in a correct format. Please only use letters A-Z, and, for three letter abbreviation, use no more than three letters separated by commas";
                     Errors.IsVisible = true;
                 }
             }

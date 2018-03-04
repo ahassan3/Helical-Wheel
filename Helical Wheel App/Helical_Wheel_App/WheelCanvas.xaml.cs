@@ -154,11 +154,11 @@ namespace Helical_Wheel_App
                     xval = (float)(RADIUS * Math.Cos(angle * Math.PI / 180F));
                     yval = (float)(RADIUS * Math.Sin(angle * Math.PI / 180F));
                     var itemFound = HelicalStructure.Where(x => (x.Value.X == xval));
-                    if(itemFound.Any())
-                    {
-                        xval *= 1.1f;
-                        yval *= 1.1f;
-                    }
+                    //if(itemFound.Any())
+                    //{
+                    //    xval *= 1.1f;
+                    //    yval *= 1.1f;
+                    //}
                     HelicalStructure.Add(new KeyValuePair<string, Point>(item.Substring(0, 1).ToString().ToUpper() + item.Substring(1, 2) + incr, new Point(xval, yval)));
                     if (aminoClass.IsAminoAcid(item))
                     {

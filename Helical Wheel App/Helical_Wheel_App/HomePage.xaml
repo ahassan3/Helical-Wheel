@@ -1,17 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Helical_Wheel_App.HomePage">
-  <ContentPage.ToolbarItems>
-    <!--<ToolbarItem x:Name="RunAnalysisItem" Order="Primary" Icon="Xamarin.png" Text="Evaluate Structure" Priority="1" Clicked="RunAnalysisItem_Click"/>
-    <ToolbarItem x:Name="PreviousEntriesItem" Order="Primary" Icon="Xamarin.png" Text="Previous Entries" Priority="2"/>-->
+             x:Class="Helical_Wheel_App.HomePage"
+             x:Title="Helical Wheel">
+  <ContentPage.ToolbarItems >
   </ContentPage.ToolbarItems>
   <StackLayout x:Name="MainView">
     <StackLayout x:Name="AminoEntry">
       <!--&#x0a;-->
       <Label Text="Protein Name"/>
       <Entry x:Name="ProteinEntry" HorizontalOptions="FillAndExpand"/>
-      <Label Text="Amino Acid Sequence (*Use commas to seperate three letter appreviated amino acids)"/>
+      <Label Text="Amino Acid Sequence (*Use commas to separate three letter abbreviated amino acids)"/>
       <Editor x:Name="AminoAcidEditor" HeightRequest="100"  HorizontalOptions="FillAndExpand" />
       <Label x:Name="Errors" IsVisible="False" TextColor ="Red"/>
       <Button x:Name="Button1" Text="Create Wheel" Clicked="Button_Click"/>
