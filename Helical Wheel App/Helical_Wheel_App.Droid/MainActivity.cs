@@ -33,6 +33,8 @@ namespace Helical_Wheel_App.Droid
                 XDocument doc = new XDocument(new XElement(FileStream.RootName));
                 doc.Save(docmentPath);
             }
+            App.ScreenWidth = Resources.DisplayMetrics.WidthPixels / Resources.DisplayMetrics.Density;
+            App.ScreenHeight = Resources.DisplayMetrics.HeightPixels / Resources.DisplayMetrics.Density;
             LoadApplication(new App());
         }
     }

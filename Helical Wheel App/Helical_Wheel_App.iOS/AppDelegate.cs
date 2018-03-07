@@ -25,6 +25,8 @@ namespace Helical_Wheel_App.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            App.ScreenWidth = (float)UIScreen.MainScreen.Bounds.Width;
+            App.ScreenHeight = (float)UIScreen.MainScreen.Bounds.Height;
             LoadApplication(new App());
             FileStream.PathApp = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
             var docmentPath = Path.Combine(FileStream.PathApp, FileStream.FileName);

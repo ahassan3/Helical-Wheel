@@ -18,23 +18,28 @@ namespace Helical_Wheel_App
         {
             aminoClass = new AminoAcids();
             InitializeComponent();
+            //creating tool bar item
             var toolbar = new ToolbarItem();
             toolbar.AutomationId = "RunAnalysisItem";
             toolbar.Text = "Evaluate Structure";
             toolbar.Priority = 1;
             toolbar.Clicked += new EventHandler(RunAnalysisItem_Click);
             toolbar.Order = ToolbarItemOrder.Primary;
+            // creating a second toolbar item
             var toolbar2 = new ToolbarItem();
             toolbar2.AutomationId = "PreviousEntriesItem";
             toolbar2.Text = "Previous Entries";
             toolbar2.Priority = 1;
+            // navigate to new page when clicked
             toolbar2.Clicked += delegate
             {
                 Navigation.PushAsync(new PreviousEntries());
             };
-            toolbar2.Order = ToolbarItemOrder.Secondary;
+            toolbar2.Order = ToolbarItemOrder.Primary;
+            // add tool bar items
             this.ToolbarItems.Add(toolbar);
             this.ToolbarItems.Add(toolbar2);
+            // if the contructor isn't empty, create a helical wheel
             if (!string.IsNullOrEmpty(AminoSeq))
             {
                 ProteinEntry.Text = ProteinName;
@@ -44,21 +49,27 @@ namespace Helical_Wheel_App
         }
         void Button_Click(object sender, EventArgs e)
         {
+            // if the create wheel button is clicked
             DrawHelicalWheel();
             if (!Errors.IsVisible)
                 AddEntry();
         }
         void RunAnalysisItem_Click(object sender, EventArgs e)
         {
+            //get the toolbar item named RunAnalysisItem
             var toolbar = this.ToolbarItems.FirstOrDefault(x => x.AutomationId.Equals("RunAnalysisItem"));
+            // if the wheel is drawn and is visible
             if (HelicalView.Content != null && HelicalView.IsVisible && !toolbar.Text.Equals("Back to Entry"))
             {
+                // hide the stacklayout
                 AminoEntry.IsVisible = false;
+                // get the content
                 var content = (WheelCanvas)HelicalView.Content;
+                // run the analysis
                 RunAminoAnalysis(content.HelicalStructure);
                 toolbar.Text = "Back to Entry";
             }
-            else if (this.ToolbarItems.FirstOrDefault(x => x.AutomationId.Equals("RunAnalysisItem")).Text.Equals("Back to Entry"))
+            else if (toolbar.Text.Equals("Back to Entry"))
             {
                 StructureAnalysis.IsVisible = false;
                 ScrollBar.IsVisible = false;
@@ -85,7 +96,7 @@ namespace Helical_Wheel_App
                 if (ValidSequence)
                 {
                     var contentView = new WheelCanvas(aminoAcid);
-                    contentView.HeightRequest = .55 * Application.Current.MainPage.Height;
+                    contentView.HeightRequest = .55 * App.ScreenHeight;
                     var id = contentView.Id;
                     HelicalView.Content = contentView;
                     HelicalView.IsVisible = true;
@@ -112,6 +123,7 @@ namespace Helical_Wheel_App
             var structErrors = new List<string>();
             StructureAnalysis.Text = "The following issues were found: \n";
             StructureAnalysis.TextColor = Color.Red;
+            ScrollBar.IsVisible = true;
             foreach (var item in aminoList)
             {
                 var countItem = item.Key.ToCharArray().ToList().Where(x => char.IsDigit(x)).Count();
@@ -163,7 +175,7 @@ namespace Helical_Wheel_App
             }
             StructureAnalysis.IsVisible = true;
             ScrollBar.IsVisible = true;
-            StructureAnalysis.HeightRequest = .40 * Application.Current.MainPage.Height;
+            StructureAnalysis.HeightRequest = .40 * App.ScreenHeight;
 
         }
         private void AddEntry()

@@ -11,9 +11,13 @@ namespace Helical_Wheel_App
     {
         public NavigationPage NavPage { get; private set; }
         public MasterDetailPage MD { get; set; }
+        public static float ScreenWidth { get; set; }
+        public static float ScreenHeight { get; set; }
         public App()
         {
+            //create nav page
             NavPage = new NavigationPage(new HomePage());
+            //launch nav page
             MainPage = NavPage;
         }
 
