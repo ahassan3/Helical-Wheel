@@ -42,5 +42,12 @@ namespace Helical_Wheel_App.iOS
             }
             return base.FinishedLaunching(app, options);
         }
+        public UIInterfaceOrientationMask GetSupportedInterfaceOrientations(UIApplication application, IntPtr forWindow)
+
+        {
+
+            return UIInterfaceOrientationMask.Portrait;
+
+        }
     }
 }
