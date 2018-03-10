@@ -72,7 +72,6 @@ namespace Helical_Wheel_App
             else if (toolbar.Text.Equals("Back to Entry"))
             {
                 StructureAnalysis.IsVisible = false;
-                ScrollBar.IsVisible = false;
                 AminoEntry.IsVisible = true;
                 toolbar.Text = "Evaluate Structure";
 
@@ -123,7 +122,6 @@ namespace Helical_Wheel_App
             var structErrors = new List<string>();
             StructureAnalysis.Text = "The following issues were found: \n";
             StructureAnalysis.TextColor = Color.Red;
-            ScrollBar.IsVisible = true;
             foreach (var item in aminoList)
             {
                 var countItem = item.Key.ToCharArray().ToList().Where(x => char.IsDigit(x)).Count();
@@ -154,11 +152,21 @@ namespace Helical_Wheel_App
                 }
                 List<KeyValuePair<string, Point>> templist = aminoList.Where(x => !x.Key.Equals(item.Key)).ToList();
                 var closeAminos = templist.Where(x => Math.Sqrt(Math.Pow((x.Value.X - item.Value.X), 4) + Math.Pow((x.Value.Y - item.Value.Y), 2)) <= 4);
+                List<KeyValuePair<string,string>> foundAminos = new List<KeyValuePair<string, string>>();
                 foreach (var item2 in closeAminos)
                 {
                     var countItem2 = item2.Key.ToCharArray().ToList().Where(x => char.IsDigit(x));
                     if (aminoClass.ContainsBulkyAminos(item.Key.Substring(0,item.Key.Length - countItem), item2.Key.Substring(0,item2.Key.Length - countItem2.Count())))
-                        structErrors.Add($"-{item.Key.Substring(0,item.Key.Length - countItem)} & {item2.Key.Substring(0, item2.Key.Length - countItem2.Count())} are bulky amino acids and shouldn't be very close to each other");
+                    {
+                        var text = $"-{item.Key} & {item2.Key} are bulky amino acids and shouldn't be very close to each other.";
+                        KeyValuePair<string, string> keyPair1 = new KeyValuePair<string, string>(item.Key, item2.Key);
+                        KeyValuePair<string, string> keyPair2 = new KeyValuePair<string, string>(item2.Key, item.Key);
+                        if (!foundAminos.Contains(keyPair1))
+                            structErrors.Add(text);
+                        foundAminos.Add(keyPair1);
+                        foundAminos.Add(keyPair2);
+                    }
+
                 }
             }
             if (structErrors.Any())
@@ -167,6 +175,7 @@ namespace Helical_Wheel_App
                 {
                     StructureAnalysis.Text += error + "\n";
                 }
+
             }
             else
             {
@@ -174,9 +183,8 @@ namespace Helical_Wheel_App
                 StructureAnalysis.TextColor = Color.ForestGreen;
             }
             StructureAnalysis.IsVisible = true;
-            ScrollBar.IsVisible = true;
-            StructureAnalysis.HeightRequest = .40 * App.ScreenHeight;
-
+            Content = new ScrollView { Content = MainView };
+            //StructureAnalysis.HeightRequest = .40 * App.ScreenHeight;
         }
         private void AddEntry()
         {

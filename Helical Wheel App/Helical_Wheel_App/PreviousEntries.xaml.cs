@@ -91,7 +91,18 @@ namespace Helical_Wheel_App
                 };
             });
             listView.ItemSelected += new EventHandler<SelectedItemChangedEventArgs>(OnSelection);
-            this.Padding = new Thickness(10, Device.OnPlatform(20, 0, 0), 10, 5);
+            double topPadding;
+
+            switch (Device.RuntimePlatform)
+            {
+                case Device.iOS:
+                    topPadding = 20;
+                    break;
+                default:
+                    topPadding = 0;
+                    break;
+            }
+            this.Padding = new Thickness(10, topPadding, 10, 5);
 
             // Build the page.
             this.Content = new StackLayout

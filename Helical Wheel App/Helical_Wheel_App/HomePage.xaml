@@ -3,21 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Helical_Wheel_App.HomePage"
              x:Title="Helical Wheel">
-  <ContentPage.ToolbarItems >
-  </ContentPage.ToolbarItems>
-  <StackLayout x:Name="MainView">
-    <StackLayout x:Name="AminoEntry">
-      <Label Text="Protein Name"/>
-      <Entry x:Name="ProteinEntry" HorizontalOptions="FillAndExpand"/>
-      <Label Text="Amino Acid Sequence (*Use commas to separate three letter abbreviated amino acids)"/>
-      <Editor x:Name="AminoAcidEditor" HeightRequest="100"  HorizontalOptions="FillAndExpand" />
-      <Label x:Name="Errors" IsVisible="False" TextColor ="Red"/>
-      <Button x:Name="Button1" Text="Create Wheel" Clicked="Button_Click"/>
+    <ContentPage.ToolbarItems >
+    </ContentPage.ToolbarItems>
+    <StackLayout x:Name="MainView" VerticalOptions="FillAndExpand">
+      <StackLayout x:Name="AminoEntry">
+        <Label Text="Protein Name"/>
+        <Entry x:Name="ProteinEntry" HorizontalOptions="FillAndExpand"/>
+        <Label Text="Amino Acid Sequence (*Use commas to separate three letter abbreviated amino acids)"/>
+        <Editor x:Name="AminoAcidEditor" HeightRequest="100"  HorizontalOptions="FillAndExpand" />
+        <Label x:Name="Errors" IsVisible="False" TextColor ="Red"/>
+        <Button x:Name="Button1" Text="Create Wheel" Clicked="Button_Click"/>
+      </StackLayout>
+      <ContentView x:Name="HelicalView"/>
+      <Label x:Name="StructureAnalysis" IsVisible="False" TextColor ="Red" VerticalOptions="FillAndExpand"/>
+      <ListView x:Name="listView" IsVisible="False"></ListView>
     </StackLayout>
-    <ContentView x:Name="HelicalView"/>
-    <ScrollView x:Name="ScrollBar">
-      <Label x:Name="StructureAnalysis" IsVisible="False" TextColor ="Red" />
-    </ScrollView>
-  </StackLayout>
-
 </ContentPage>
