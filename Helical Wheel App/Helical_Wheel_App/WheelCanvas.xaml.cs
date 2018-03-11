@@ -82,7 +82,7 @@ namespace Helical_Wheel_App
             float percentToMinimize;
             if (AminoSequence.Contains(","))
             {
-                modify = AminoSequence.Split(',').Count() / 19;
+                modify = AminoSequence.Split(',').Count();
             }
             else
             {
@@ -186,10 +186,10 @@ namespace Helical_Wheel_App
             var aminoClass = new AminoAcids();
             var listAminos = aminoAcids.Split(',').ToList();
             float xval = 0; float yval = 0;
-            float xModifier = 0;
-            float yModifier = 0;
+            float xModifier = 0; float yModifier = 0;
             float modIncrementer = 0;
-            int angle = 100;
+            float scaleModifier = 19;
+            int angle = 270;
             bool polarity = false;
             string lastAmino ="";
             int incr = 1;
@@ -198,7 +198,7 @@ namespace Helical_Wheel_App
             {
                 if (!string.IsNullOrWhiteSpace(item))
                 {
-                    if (angle > 100)
+                    if (!string.IsNullOrWhiteSpace(lastAmino))
                     {
                         if(incr < 18)
                             canvas.DrawLine(xval, yval, (float)((RADIUS * percentDiff) * Math.Cos(angle * Math.PI / 180F)), (float)((RADIUS * percentDiff) * Math.Sin(angle * Math.PI / 180F)), Line);
@@ -211,12 +211,18 @@ namespace Helical_Wheel_App
                     xval = (float)((RADIUS * percentDiff) * Math.Cos(angle * Math.PI / 180F));
                     yval = (float)((RADIUS * percentDiff) * Math.Sin(angle * Math.PI / 180F));
                     HelicalStructure.Add(new KeyValuePair<string, Point>(item.Substring(0, 1).ToString().ToUpper() + item.Substring(1, 2) + incr, new Point(xval, yval)));
-                    if (incr % 19 == 0)
+                    if (incr % scaleModifier == 0)
                     {
                         modIncrementer += 1;
+                        scaleModifier = scaleModifier + 18;
                     }
-                    xModifier = xval > 0 ? 5f * modIncrementer : -5f * modIncrementer;
-                    yModifier = yval > 0 ? 5f * modIncrementer : -5f * modIncrementer;
+                    xModifier = xval > 0 ? 13f * modIncrementer : -13f * modIncrementer;
+                    yModifier = yval > 0 ? 13f * modIncrementer : -13f * modIncrementer;
+                    if (Math.Abs(xval) < 5 && modIncrementer > 0)
+                    {
+                        yModifier = yModifier > 0 ? (yModifier - .5f) + (6 * modIncrementer) : (yModifier + .5f) - (6 * modIncrementer);
+                        xModifier = 0;
+                    }
                     xval += xModifier;
                     yval += yModifier;
                     if (aminoClass.IsAminoAcid(item))
