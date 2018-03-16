@@ -21,7 +21,7 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>MinimumOSVersion</key>
-	<string>11.2</string>
+	<string>10.3</string>
 	<key>CFBundleDisplayName</key>
 	<string>Helical_Wheel_App</string>
 	<key>CFBundleIdentifier</key>

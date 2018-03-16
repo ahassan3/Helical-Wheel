@@ -193,6 +193,7 @@ Global
 		{8C38F145-6087-4EFF-83A7-67E756F0A057}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{8C38F145-6087-4EFF-83A7-67E756F0A057}.Release|x64.ActiveCfg = Release|iPhone
 		{8C38F145-6087-4EFF-83A7-67E756F0A057}.Release|x86.ActiveCfg = Release|iPhone
+		{8C38F145-6087-4EFF-83A7-67E756F0A057}.Debug|Any CPU.Build.0 = Debug|iPhone
 		{E318DA2B-B8B1-4B89-A19D-A6B42FFC6C20}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
 		{E318DA2B-B8B1-4B89-A19D-A6B42FFC6C20}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
 		{E318DA2B-B8B1-4B89-A19D-A6B42FFC6C20}.Ad-Hoc|Any CPU.Deploy.0 = Release|Any CPU
